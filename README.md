@@ -1,4 +1,4 @@
-# Prompting_assignment
+# Prompting Engineering assignment
 implementing all types of prompting techniques
 ## Project Overview
 The project consists of ** different prompt experiments **:
