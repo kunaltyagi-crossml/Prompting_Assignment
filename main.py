@@ -11,6 +11,17 @@ from text_generator import generate_text
 
 
 def main():
+     """
+    Summary:
+        Calls the text generation function with the configured client,
+        model name, system prompt, user prompt, and generation settings.
+
+    Args:
+        None
+
+    Return:
+        None
+    """
     generate_text(
         client=client,
         model_name=MODEL_NAME,
