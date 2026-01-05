@@ -11,7 +11,7 @@ from text_generator import generate_text
 
 
 def main():
-     """
+    """
     Summary:
         Calls the text generation function with the configured client,
         model name, system prompt, user prompt, and generation settings.
@@ -19,7 +19,7 @@ def main():
     Args:
         None
 
-    Return:
+    Returns:
         None
     """
     generate_text(
@@ -30,6 +30,10 @@ def main():
         config=CONFIG,
         use_self_consistency=True
     )
+
+
+if __name__ == "__main__":
+    main()
 
 
 if __name__ == "__main__":
